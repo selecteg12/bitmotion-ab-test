@@ -1,0 +1,92 @@
+{
+  "raw_test_users": 10850,
+  "excluded_cross_test_users": 887,
+  "clean_users": 9963,
+  "missing_registration": 0,
+  "incomplete_7day_window": 0,
+  "capture_end": "2020-12-31 23:59:48",
+  "legacy_up_to_7_calendar_day_inclusive": {
+    "A": {
+      "n": 4952,
+      "buyers": 1435,
+      "cr": 0.28978190630048467
+    },
+    "B": {
+      "n": 5011,
+      "buyers": 1562,
+      "cr": 0.3117142286968669
+    },
+    "difference_pp": 2.193232239638221,
+    "relative_uplift_pct": 7.56856170779685,
+    "p_one_sided": 0.008500272053738033,
+    "p_two_sided": 0.017000544107476066,
+    "difference_ci95_pp": [
+      0.3928780659135884,
+      3.9935864133628534
+    ]
+  },
+  "strict_first_168hours": {
+    "A": {
+      "n": 4952,
+      "buyers": 1377,
+      "cr": 0.27806946688206785
+    },
+    "B": {
+      "n": 5011,
+      "buyers": 1480,
+      "cr": 0.29535022949511075
+    },
+    "difference_pp": 1.72807626130429,
+    "relative_uplift_pct": 6.214548762511862,
+    "p_one_sided": 0.02826254721229214,
+    "p_two_sided": 0.05652509442458428,
+    "difference_ci95_pp": [
+      -0.04751330912314,
+      3.5036658317317197
+    ]
+  },
+  "strict_mature_users": {
+    "A": {
+      "n": 4952,
+      "buyers": 1377,
+      "cr": 0.27806946688206785
+    },
+    "B": {
+      "n": 5011,
+      "buyers": 1480,
+      "cr": 0.29535022949511075
+    },
+    "difference_pp": 1.72807626130429,
+    "relative_uplift_pct": 6.214548762511862,
+    "p_one_sided": 0.02826254721229214,
+    "p_two_sided": 0.05652509442458428,
+    "difference_ci95_pp": [
+      -0.04751330912314,
+      3.5036658317317197
+    ]
+  },
+  "srm_clean_p": 0.5544570791816257,
+  "srm_mature_p": 0.5544570791816257,
+  "device_counts": {
+    "Android": {
+      "A": 2264,
+      "B": 2218
+    },
+    "Mac": {
+      "A": 515,
+      "B": 511
+    },
+    "PC": {
+      "A": 1223,
+      "B": 1302
+    },
+    "iPhone": {
+      "A": 950,
+      "B": 980
+    }
+  },
+  "versions": {
+    "pandas": "3.0.1",
+    "numpy": "2.3.5"
+  }
+}
