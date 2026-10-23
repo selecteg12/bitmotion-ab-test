@@ -22,6 +22,10 @@ Check experiment assignments, compare purchase conversion between groups, and as
 
 ## Results
 
+![BitMotion seven-day purchase conversion and uplift with a 95% confidence interval](assets/results-overview.png)
+
+The figure visualizes the committed `results.json` (`strict_mature_users`): the first 168 hours after registration, with a complete observation window for all 9,963 users. It is a rendering of saved results, not a new analysis run.
+
 Control group conversion: **27.81%**. Treatment group conversion: **29.54%**.
 
 The observed uplift is **1.73 percentage points**, or **6.21% relative to the control group**. The approximate two-sided 95% confidence interval for the difference is **−0.05 to +3.50 percentage points**.
